@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,vietnamese,greek,latin-ext);
 
 body{
 	color: #2c3e50;
