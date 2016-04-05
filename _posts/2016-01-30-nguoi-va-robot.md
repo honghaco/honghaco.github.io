@@ -8,8 +8,7 @@ fullview: false
 comments: false
 ---
 
-#Người và robot
-
+# Người và robot
 
 - Posted: `Aug 27, 2015`
 - Category: **Quản trị Sản phẩm**
@@ -18,7 +17,7 @@ comments: false
 
 Đây là một kinh nghiệm mà mình rút ra được sau nhiều năm làm quản lý. Xin lưu ý rằng đây chỉ là kinh nghiệm cá nhân, nó có thể đúng với mình nhưng không chắc là có đúng với bạn hay không. Ghi ra như một ghi chép cá nhân là chính, đồng thời chia sẻ biết đâu nó sẽ có chút hữu ích nào đó với mọi người.
 
-##NGƯỜI
+## NGƯỜI
 
 Người thường dễ nhận diện: luôn bước vô công ty với tinh thần vui vẻ, mắt nó sáng lên khi nghe về những điều mới, những việc mà nó thấy tốt cho công ty, giao cho nó việc khó thì thường nó xem đó là cơ hội để được thử thách hơn là ngồi kêu trời kêu đất.
 
@@ -44,7 +43,7 @@ Khi công ty phát triển hay khi công ty có vấn đề, đều dành thời
 
 - Và cuối cùng là vì trách nhiệm mà người chủ doanh nghiệp phải có: founder bị thất bại thì chỉ làm cho founder đó có giá trị hơn (thiệt!), còn anh em theo founder về làm một công ty bị thất bại thì chỉ xấu cho CV của họ, tội họ lắm! Mà đời người đi làm thì CV còn quan trọng hơn cái bằng. Cho nên phải có trách nhiệm.
 
-##ROBOT
+## ROBOT
 
 Cũng như người, Robot cũng dễ nhận diện: giao việc cho robot tới đâu thì robot làm tới đó, hên gặp robot tốt thì giao 10 nó deliver 10, robot thường thấy nhất thì giao 10 deliver tầm 8-9, còn robot bị lỗi thì giao 10 deliver được 5-6 + trễ hạn.
 
@@ -62,7 +61,7 @@ Và, nói như vậy không có nghĩa là robot không có giá trị (ngược
 
 Có những người chọn làm robot vì đó là con đường họ chọn. Vì họ không chọn công việc làm niềm vui, có thể niềm vui có họ là một cái gì đó, văn thơ đàn hát, leo núi, đá banh,... gì đó. Họ đi làm chỉ để cung cấp tài chính cho đam mê kia. Không có gì sai, không có gì là xấu. Nhìn đời nhẹ nhàng sẽ thấy vui! :)
 
-##DÙNG NGƯỜI VÀ ROBOT
+## DÙNG NGƯỜI VÀ ROBOT
 
 Như đã nói, Người và Robot đều cần thiết cho công ty.
 
