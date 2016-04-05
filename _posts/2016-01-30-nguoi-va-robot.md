@@ -21,7 +21,7 @@ comments: false
 
 Người thường dễ nhận diện: luôn bước vô công ty với tinh thần vui vẻ, mắt nó sáng lên khi nghe về những điều mới, những việc mà nó thấy tốt cho công ty, giao cho nó việc khó thì thường nó xem đó là cơ hội để được thử thách hơn là ngồi kêu trời kêu đất.
 
-Nhóm này nên tuyển kỹ, xét đạo đức nhiều hơn cả chuyên môn. Chuyên môn của nhóm này nhiều khi thua mấy đứa có kinh nghiệm đôi chút cũng không sao, với cái **`thái độ sống của nó + được đào tạo + được trao cho cơ hội`**, chẳng mấy chốc tụi nó sẽ qua đám có kinh nghiệm nhưng lại hay coi trời bằng vung.
+Nhóm này nên tuyển kỹ, xét đạo đức nhiều hơn cả chuyên môn. Chuyên môn của nhóm này nhiều khi thua mấy đứa có kinh nghiệm đôi chút cũng không sao, với cái **thái độ sống của nó + được đào tạo + được trao cho cơ hội**, chẳng mấy chốc tụi nó sẽ qua đám có kinh nghiệm nhưng lại hay coi trời bằng vung.
 
 Nhóm này thường khi làm gì mà thất bại thì nó là đứa tự xỉ vả nó đầu tiên, không phải đợi ai nói (khác với nhóm Robot thường sẽ có xu hướng tại, bị, thì, mà,...)
 
