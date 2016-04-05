@@ -19,6 +19,15 @@
 
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
+        <!-- Add Home Page -->
+		{% if site.web %}
+		<li>
+			<a class="btn btn-default btn-sm" href="http://{{ site.web }}"
+                target="_blank">
+				<i class="fa fa-home fa-lg"></i>
+			</a>
+        </li>
+		{% endif %}
 		{% if site.author.github %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
