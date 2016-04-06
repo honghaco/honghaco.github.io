@@ -9,7 +9,7 @@ markdown: kramdown
 #google_analytics: dbyll
 title: hhblog
 web: www.hongha.asia
-
+repo: samdx.github.io
 defaults:
   -
     scope:
