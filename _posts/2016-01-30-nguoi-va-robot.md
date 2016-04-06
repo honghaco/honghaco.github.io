@@ -1,17 +1,14 @@
 ---
 layout: post
 title: Người và Robot
-categories: [hr, share]
-tags: [nguoi, robot, cong-viec]
-description: Chút chia sẻ về vấn đề nhân sự
+categories: [hr]
+tags: [nguoi, robot, nhan su]
+description: Chút chia sẻ về quản trị nhân sự
 fullview: false
 comments: false
 ---
 
 # Người và robot
-
-- Posted: `Aug 27, 2015`
-- Category: **Quản trị Sản phẩm**
 
 ![](http://tapbut.ngochieu.com/wp-content/uploads/2015/08/man_vs_robot.jpg)
 
@@ -79,4 +76,4 @@ Người khó kiếm, nên tự đi kiếm, đi dụ dỗ về. Robot thì nên 
 
 Còn nhiều điều muốn viết về chủ đề này, nhưng có lẽ đã khá dài. Hẹn dịp khác sẽ bổ sung thêm.
 
-Source: [Người và robot on Blog Ngọc Hiếu](http://tapbut.ngochieu.com/nguoi-va-robot/)
+Source: [Người và robot on Blog Ngọc Hiếu](http://tapbut.ngochieu.com/nguoi-va-robot/).
