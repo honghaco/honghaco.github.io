@@ -2,6 +2,7 @@
 */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,vietnamese,greek,latin-ext);
+@import url(cdn.jsdelivr.net/font-hack/2.019/css/hack.min.css);
 
 body{
 	color: #2c3e50;
@@ -49,6 +50,13 @@ a.nav-link:hover { color: #777 }
 	font-size: 11px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+}
+
+code {
+    font-family: "Consolas", "Hack", "Courier New", Courier, Monaco, Menlo, monospace;
+    color: #126DCE;
+    white-space: pre-wrap;
+    background-color: rgba(235, 235, 235, 0.7);
 }
 
 #contact-list li .fa,
