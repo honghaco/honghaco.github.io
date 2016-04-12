@@ -8,8 +8,6 @@ fullview: false
 comments: false
 ---
 
-# DELL | Install drivers silently
-
 Trình điều khiển của các máy Dell có thể được tải về tại [`dell.com/support`](https://dell.com/support). Thường cách cài đặt là nhấp chạy từng file EXE đã tải về, và qua từng bước trên hộp thoại hiện ra.
 
 Các file driver của Dell cung cấp một tùy chọn dòng lệnh, giúp thực hiện việc cài đặt một cách 'thầm lặng', mà không tương tác với người dùng, trong thời gian đó người cài đặt có thể chuyển sang thực hiện công việc khác.
