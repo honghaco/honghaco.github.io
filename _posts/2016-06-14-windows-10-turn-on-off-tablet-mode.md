@@ -8,6 +8,8 @@ fullview: false
 comments: false
 ---
 
+[Source][source] 
+
 [Continuum][continuum] is Microsoft's fancy new way of switching between tablet and desktop mode in Windows 10 as and when the need arises, but what if you want to play around with tablet mode on your desktop PC? Well, no worries, as is often the case there's a manual way to do it so long as you know where to look.
 
 ## Here's where to find it.
@@ -20,11 +22,11 @@ The other, more long winded way to find it is:
 
 ## Work flow
 
-- Click or tap the **Start** button
-- Open the **Settings** application
-- Click or tap on **System**
-- In the pane on the left of the screen scroll all the way to the bottom until you see **"Tablet Mode"**
-- Ensure the toggle is set to either on or off to your preference.
+- Click or tap the **Start** button.
+- Open the **Settings** application.
+- Click or tap on **System**.
+- In the pane on the left of the screen scroll all the way to the bottom until you see **"Tablet Mode"**.
+- Ensure the toggle is set to either **on** or **off** to your preference.
 
 Simple. But the great thing is it gives everyone a chance to play around with tablet mode without the need to install it on a tablet.
 
