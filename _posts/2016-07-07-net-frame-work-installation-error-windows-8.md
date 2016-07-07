@@ -24,20 +24,20 @@ I list one method only, that use a Windows installation media such as an iso for
 
 You can use the Windows installation media as the file source when you enable the .NET Framework 3.5 feature. To do this, follow these steps:
 
-1. Insert the Windows installation media.
-2. At an elevated command prompt, run the following command:
+- Insert the Windows installation media.
+- At an elevated command prompt, run the following command:
 
-    ```
-    Dism /online /enable-feature /featurename:NetFx3 /All /Source:<drive>:\sources\sxs /LimitAccess
-    ```
+```
+Dism /online /enable-feature /featurename:NetFx3 /All /Source:<drive>:\sources\sxs /LimitAccess
+```
 
-    Note In this command, `<drive>` is a placeholder for the drive letter for the DVD drive or for the Windows 8 installation media. For example, you run the following command:
+Note In this command, `<drive>` is a placeholder for the drive letter for the DVD drive or for the Windows 8 installation media. For example, you run the following command:
 
-    ```
-    Dism /online /enable-feature /featurename:NetFx3 /All /Source:G:\sources\sxs /LimitAccess
+```
+Dism /online /enable-feature /featurename:NetFx3 /All /Source:G:\sources\sxs /LimitAccess
 
-    ```
-3. Wait for the installation completes.
+```
+- Wait for the installation completes.
 
 ## Conclusion
 
