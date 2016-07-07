@@ -8,7 +8,7 @@ fullview: false
 comments: false
 ---
 
-[Source][source] 
+[Source][source]
 
 More: [https://sokratisg.net/2012/04/01/udp-tcp-checksum-errors-from-tcpdump-nic-hardware-offloading/](https://sokratisg.net/2012/04/01/udp-tcp-checksum-errors-from-tcpdump-nic-hardware-offloading/)
 ---

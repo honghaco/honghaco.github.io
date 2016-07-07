@@ -24,7 +24,6 @@ Corrupt workspaces may lead to problems with the stability and/or operability of
     Are you sure you want to overwrite the workspace with the factory defaults?
     Click Yes and release the F8 key.
 - **Note:** Some newer keyboards have an "F Lock" key that must be pressed first to activate the Function keys on the keyboard.
- 
 
 ### METHOD 2
 

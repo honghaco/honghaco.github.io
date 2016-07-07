@@ -8,7 +8,7 @@ fullview: false
 comments: false
 ---
 
-[Source][source] 
+[Source][source]
 
 ## Introduction
 

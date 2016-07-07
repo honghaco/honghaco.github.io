@@ -8,7 +8,7 @@ fullview: false
 comments: false
 ---
 
-[Source][source] 
+[Source][source]
 
 [Continuum][continuum] is Microsoft's fancy new way of switching between tablet and desktop mode in Windows 10 as and when the need arises, but what if you want to play around with tablet mode on your desktop PC? Well, no worries, as is often the case there's a manual way to do it so long as you know where to look.
 
