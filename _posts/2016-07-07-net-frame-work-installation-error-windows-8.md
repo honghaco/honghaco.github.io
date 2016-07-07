@@ -1,6 +1,6 @@
 ---
 layout: post
-title: .NET Framework 3.5 installation error: 0x800F0906, 0x800F081F, 0x800F0907
+title: .NET Framework 3.5 installation error on Windows 8
 categories: [windows]
 tags: [8, 8.1, netframework, update, kb, NetFx3]
 description: Resolving the .NET Framework 3.5 on Windows 8 installation error
