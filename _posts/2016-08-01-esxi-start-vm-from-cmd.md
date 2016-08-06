@@ -8,7 +8,10 @@ fullview: false
 comments: false
 ---
 
-## Powering on a virtual machine from the command line when the host cannot be managed using vSphere Client (1038043) Powering on a virtual machine from the command line when the host cannot be managed using vSphere Client (1038043)
+## Powering on a virtual machine from the command line when the host cannot be managed using vSphere Client (1038043)
+
+I'm living on a Linux System. And, you known, there's no VSphere Client for Linux (not even Web Client).
+This lead me to control ESXi the Linux way. Let's launch a `ssh` session that connect to ESXi. 
 
 ### Purpose
 
