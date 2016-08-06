@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 #disqus: dbyll
 #google_analytics: dbyll
-title: hhblog
+title: Hồng Hà Tech Blog
 web: www.hongha.asia
 repo: samdx.github.io
 defaults:
@@ -15,9 +15,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: hhblog
+      title: Hồng Hà Tech Blog
 
-description: Hong Ha blogs
+description: Today-I-Learned
 author:
   name: samdx
   email: samdx@hongha.asia
@@ -25,7 +25,7 @@ author:
 #  twitter:
 #  pinterest:
 #  linkedin:
-  bio: Share the knowledge
+  bio: Power is gained by share knowledge, not hoarding it. - Unknown
 #  email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
