@@ -1,7 +1,7 @@
 /*
 ## Get the search term from submit named 'search'.
 */
-function getQueryVariable (variable) {
+(function getQueryVariable (variable) {
   var query = window.location.search.substring(1);
   var vars = query.splits('&');
 
@@ -69,4 +69,4 @@ function displaySearchResults (results, store) {
   else {
     searchResults.innerHTML = '<li>Khong co ket qua nao.</li>';
   }
-}
+})();
