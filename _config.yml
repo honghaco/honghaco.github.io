@@ -10,6 +10,7 @@ markdown: kramdown
 title: Hồng Hà Tech Blog
 web: www.hongha.asia
 repo: samdx.github.io
+url: http://samdx.github.io
 defaults:
   -
     scope:
