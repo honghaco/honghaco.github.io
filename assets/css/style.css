@@ -35,6 +35,9 @@ blockquote {
 	color: #fff;
 }
 
+a:hover {
+    text-decoration: none;
+}
 a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
@@ -211,4 +214,12 @@ ul.dropdown-menu>li>a>i.fa {
 .search-bar {
     margin-right: auto;
     margin-left: auto;
+}
+
+#search-results>li {
+    list-style-type: none;
+}
+
+#search-results>li>h3>a:hover {
+    color: #f2756a;
 }
