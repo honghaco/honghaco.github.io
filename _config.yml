@@ -9,8 +9,8 @@ markdown: kramdown
 #google_analytics: dbyll
 title: Hồng Hà Tech Blog
 web: www.hongha.asia
-repo: samdx.github.io
-url: http://samdx.github.io
+repo: honghaco.github.io
+url: http://honghaco.github.io
 defaults:
   -
     scope:
@@ -22,7 +22,7 @@ description: Today-I-Learned
 author:
   name: samdx
   email: samdx@hongha.asia
-  github: samdx
+  github: honghaco
 #  twitter:
 #  pinterest:
 #  linkedin:
