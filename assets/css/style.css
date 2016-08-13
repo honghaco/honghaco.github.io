@@ -215,3 +215,11 @@ ul.dropdown-menu>li>a>i.fa {
     margin-right: auto;
     margin-left: auto;
 }
+
+#search-results>li {
+    list-style-type: none;
+}
+
+#search-results>li>h3>a:hover {
+    color: #f2756a;
+}
