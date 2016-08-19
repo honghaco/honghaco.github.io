@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Splits lossless audio files using .cue files
+title: Lossless audio files splitting
 categories: [howto]
 tags: [software, audio, linux, multimedia]
-description: HOWTO split lossless audio files using .cue files with varous small tools
+description: How to use cuetools and shntool to split lossless audio files come with metadata from a .cue file
 fullview: false
 comments: false
 ---
