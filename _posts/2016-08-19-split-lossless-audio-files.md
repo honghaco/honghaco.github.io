@@ -130,6 +130,73 @@ $ cuetag.sh <the-cue-file> <audio-files>
 $ /usr/bin/cuetag.sh "Zhou Zifeng - Guitar - Hotel California.cue" [0-9]*.flac
 ```
 
+## Playlist
+
+We have to re-create play list file for new created files, the `cue` is no longer valid
+to player.
+
+```bash
+$ for aufile in *.flac
+do
+echo "$aufile" >> "`basename *.cue cue`m3u"
+done
+```
+
+This line
+
+```bash
+`basename *.cue cue`m3u
+```
+
+means the new one will be the same name as the `cue`
+file except its extension, and MIME, of course.
+
+## Real life operation
+
+### Splitting
+
+- I have a folder which contains multiple files, and the `cue` file indecates that 
+there are total 13 tracks in this album (the `wav` file).
+
+![Files](/statics/imgs/160819-ss-01.png)
+
+- There's a small problem. Those `TITLE` instructions' value in the `cue`
+show that tracks' title currently included the tracks' number.
+We have to remove the track number from title names first, unless you wanna
+end up with something like this: `01-01-blah-blah.flac`. No good.
+
+![The cue content](/statics/imgs/160819-ss-02.png)
+
+- It looks better now. And ready to split the `wav` file.
+
+![Title stripped out track number](/statics/imgs/160819-ss-03.png)
+
+- OK. Let's fire the `shnsplit` up.
+
+![shnsplit splitting file](/statics/imgs/160819-ss-04.png)
+
+### Tagging
+
+- The `wav` has been splitted to `flac` files, and these `flac` files do not contain
+any metadata yet. The player shows empty tags.
+
+![Empty tags](/statics/imgs/160819-ss-05.png)
+
+- You can fill tags to those new created files manually, but I don't think
+it is a good idea.
+
+![Tags browser](/statics/imgs/160819-ss-06.png)
+
+- Now, it's time for `cuetag.sh` turn, let's:
+
+```bash
+$ cuetag.sh *.cue [0-9]*.flac
+```
+
+- Here is what we get. So nice. Re-create the play list file, and enjoy.
+
+![Tagful the files](/statics/imgs/160819-ss-07.png)
+
 ## Help
 
 ```text
