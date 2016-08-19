@@ -17,7 +17,7 @@ $ sudo pacman -S mac flac wavpack cuetools shntool
 |   | term       |  Description                                                  |
 |---|:-----------|---------------------------------------------------------------|
 | - | `sudo`     | get root privileges.                                          |
-| - | `pacman`   | package manager - whatever depends on you Linux home.         |
+| - | `pacman`   | package manager - whatever depends on your Linux box.         |
 | - | `mac`      | decoder/encoder for `APE` files - Monkey Audio.               |
 | - | `flac`     | decoder/encoder for `FLAC` files - Free Lossless Audio Codec. |
 | - | `wavpack`  | decoder/encoder for `WAV` files.                              |
