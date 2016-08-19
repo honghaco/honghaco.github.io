@@ -48,7 +48,38 @@ $ shnsplit -f <the-cue-file> -t %n-%t -D -H -o <output-format> -- \
 - `-o`: (must) specific the output format, `flac` or `wav` (default - no good, man).
 - `--`: indicates that the command's options was over, the rest is files' name to convert.
 
-### Example:
+### <span style="color: red; text-decoration: underline;">Warning:</span>
+
+If your `cue` file comes from Windows, it should
+contains the `CRLF` `EOL` marks/terminators, this leads to error when call the tools.
+
+```bash
+$ file The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+The Oriental Angels - Rouge Hot II.cue: UTF-8 Unicode (with BOM) text, with CRLF line
+terminators
+
+$ cuebreakpoints The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+bad character '�'
+bad character '�'
+bad character '�'
+96: syntax error
+cuebreakpoints: error: unable to parse input file `The Oriental Angels - Rouge Hot II.cue'
+```
+
+- **How to fix**: Convert the file from Windows format to Unix format, as below tweak.
+You can get this by using `dos2unix`, `vim`, `sed`, `awk`, whatever.
+
+```bash
+$ dos2unix <the-cue-file>
+
+$ dos2unix The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+dos2unix: converting file The Oriental Angels - Rouge Hot II.cue to Unix format...
+
+$ file The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+The Oriental Angels - Rouge Hot II.cue: UTF-8 Unicode text
+```
+
+### Example on splitting files
 
 ```bash
 $ shnsplit -f Zhou\ Zifeng\ -\ Guitar\ -\ Hotel\ California.cue \
@@ -91,9 +122,17 @@ METAFLAC="metaflac --remove-vc-all --import-vc-from=-"
 METAFLAC="metaflac --remove-all-tags --import-tags-from=-"
 ```
 
-## Help
+### Example on writing tags to files
 
 ```bash
+$ cuetag.sh <the-cue-file> <audio-files>
+
+$ /usr/bin/cuetag.sh "Zhou Zifeng - Guitar - Hotel California.cue" [0-9]*.flac
+```
+
+## Help
+
+```text
 $ shnsplit -h
 
 Usage: shnsplit [OPTIONS] [file]
