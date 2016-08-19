@@ -1,5 +1,5 @@
-hhblog
+Hong Ha Tech Blog
 ======
 
-The blog: [samdx.github.io](http://samdx.github.io/)
+The blog: [honghaco.github.io](http://honghaco.github.io/)
 
