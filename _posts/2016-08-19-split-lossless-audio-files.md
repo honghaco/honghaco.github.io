@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Splits lossless audio files using .cue files
+title: Lossless audio files splitting
 categories: [howto]
 tags: [software, audio, linux, multimedia]
-description: HOWTO split lossless audio files using .cue files with varous small tools
+description: How to use cuetools and shntool to split lossless audio files come with metadata from a .cue file
 fullview: false
 comments: false
 ---
@@ -17,7 +17,7 @@ $ sudo pacman -S mac flac wavpack cuetools shntool
 |   | term       |  Description                                                  |
 |---|:-----------|---------------------------------------------------------------|
 | - | `sudo`     | get root privileges.                                          |
-| - | `pacman`   | package manager - whatever depends on you Linux home.         |
+| - | `pacman`   | package manager - whatever depends on your Linux box.         |
 | - | `mac`      | decoder/encoder for `APE` files - Monkey Audio.               |
 | - | `flac`     | decoder/encoder for `FLAC` files - Free Lossless Audio Codec. |
 | - | `wavpack`  | decoder/encoder for `WAV` files.                              |
