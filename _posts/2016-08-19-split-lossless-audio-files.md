@@ -3,7 +3,7 @@ layout: post
 title: Lossless audio files splitting
 categories: [howto]
 tags: [software, audio, linux, multimedia]
-description: How to use cuetools and shntool to split lossless audio files come with metadata from a .cue file
+description: How to use `cuetools` and `shntool` to split lossless audio files that come with metadata from a `.cue` file
 fullview: false
 comments: false
 ---
@@ -54,11 +54,11 @@ If your `cue` file comes from Windows, it should
 contains the `CRLF` `EOL` marks/terminators, this leads to error when call the tools.
 
 ```bash
-$ file The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+$ file "The Oriental Angels - Rouge Hot II.cue"
 The Oriental Angels - Rouge Hot II.cue: UTF-8 Unicode (with BOM) text, with CRLF line
 terminators
 
-$ cuebreakpoints The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+$ cuebreakpoints "The Oriental Angels - Rouge Hot II.cue"
 bad character '�'
 bad character '�'
 bad character '�'
@@ -72,10 +72,10 @@ You can get this by using `dos2unix`, `vim`, `sed`, `awk`, whatever.
 ```bash
 $ dos2unix <the-cue-file>
 
-$ dos2unix The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+$ dos2unix "The Oriental Angels - Rouge Hot II.cue"
 dos2unix: converting file The Oriental Angels - Rouge Hot II.cue to Unix format...
 
-$ file The\ Oriental\ Angels\ -\ Rouge\ Hot\ II.cue
+$ file "The Oriental Angels - Rouge Hot II.cue"
 The Oriental Angels - Rouge Hot II.cue: UTF-8 Unicode text
 ```
 
@@ -92,7 +92,7 @@ $ shnsplit -f "Zhou Zifeng - Guitar - Hotel California.cue" \
 ```
 
 - If your shell is `zsh`, you should complete the command above in two blinks of eyes. Type
-the `shnsplit`, press the `<Space>` then `-f`, input `cue` then press the `<Tab>`, and so on.
+the `shnsplit`, press the `<Space>` then `-f`, input `"cue` then press the `<Tab>`, and so on.
 (Auto completion all the things!!)
 
 ## Metadata
