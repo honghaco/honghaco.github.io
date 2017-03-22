@@ -50,10 +50,10 @@ Tada, xong rồi. Nếu đang mở cửa sổ Devices Manager bạn sẽ thấy 
 Giả sử các file driver được tải về toàn bộ, để tránh khỏi phải gõ nhiều lần, có thể dùng vòng lặp để chạy tất cả các file này, như sau:
 
 ```
-for %x in (*WN*) do start /w %x /s
+for %x in (*.EXE) do start /w %x /s
 ```
 
-- **Description:** List all the files whose names which contain the specified pattern (`WN`) then run all of them with `/s` switch, one by one.
+- **Description:** List all the files whose name which contains the specified pattern (`*.EXE`) then run all of them with `/s` switch, one by one.
 - `start /w`: *start* the following command and *wait* till it finished.
 - `/s`: *silent*.
 
