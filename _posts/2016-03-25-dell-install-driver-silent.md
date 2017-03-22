@@ -54,7 +54,7 @@ for %x in (*WN*) do start /w %x /s
 ```
 
 - **Description:** List all the files whose names which contain the specified pattern (`WN`) then run all of them with `/s` switch, one by one.
-- `start /w`: *start* a following command and *wait* till it finished.
+- `start /w`: *start* the following command and *wait* till it finished.
 - `/s`: *silent*.
 
 Lúc này, tất cả các file EXE sẽ được gọi chạy với tùy chọn `/s`. Hãy xem kết quả bên cửa sổ Devices Manager.
