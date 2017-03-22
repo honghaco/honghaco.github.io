@@ -65,7 +65,8 @@ Lúc này, tất cả các file EXE sẽ được gọi chạy với tùy chọn
 
 ### Lưu ý:
 
-Chỉ áp dụng dùng `/s` với các file cài đặt ứng dụng, và driver, được cung cấp từ trang [dell.com/support](https://dell.com/support). Các file khác như update firmware của một thiết bị, vv.. có thể không có, hoặc cách dùng tùy chọn khác.
+- Chỉ áp dụng dùng `/s` với các file cài đặt ứng dụng, và driver, được cung cấp từ trang [dell.com/support](https://dell.com/support). Các file khác như update firmware của một thiết bị, vv.. có thể không có, hoặc cách dùng tùy chọn khác.
+- Cach nay co the ap dung voi nhung dong may cua cac hang khac, nhung co the khong co/can tham so `/s`.
 
 ## Tài nguyên khác
 
